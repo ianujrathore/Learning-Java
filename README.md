@@ -82,3 +82,5 @@ Quick Sort
 * Worst Case: O(n²)
 
 * Space Complexity: O(log n)
+
+Searching Algorithm
