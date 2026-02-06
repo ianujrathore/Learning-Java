@@ -84,3 +84,5 @@ Quick Sort
 * Space Complexity: O(log n)
 
 Searching Algorithm
+* Linear Search
+* Binary Search
