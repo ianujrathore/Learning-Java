@@ -85,4 +85,13 @@ Quick Sort
 
 Searching Algorithm
 * Linear Search
+  ```
+  LinearSearch(A, n, key)
+    for i ← 0 to n - 1 do
+        if A[i] = key then
+            return i      // element found at index i
+        end if
+    end for
+    return -1             // element not found
+  ```
 * Binary Search
