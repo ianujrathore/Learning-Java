@@ -14,18 +14,21 @@
 
 * Hashing is a technique used to map data (keys) to a fixed-size value using a hash function. This value is typically used as an index in an array for fast data access.
 A hash table is a data structure that stores key–value pairs and uses hashing to achieve average-case O(1) time complexity for insertion, deletion, and lookup.
-* How it Works
+
+* How it Works :
 A hash function converts a key into an array index.
 The value is stored at that index in the hash table.
 When searching, the same hash function is used to find the index again.
-* Collisions
+
+* Collisions :
 A collision occurs when two different keys produce the same hash index. Common collision-handling techniques include:
 Chaining (storing multiple values in a list at the same index)
 Open Addressing (finding another empty slot using probing)
-* Key Points
-Fast access compared to arrays and linked lists
-Performance depends on a good hash function
-Widely used in databases, caches, and dictionaries/maps
+
+* Key Points :
+Fast access compared to arrays and linked lists,
+Performance depends on a good hash function,
+Widely used in databases, caches, and dictionaries/maps.
 
 ## Sorting Algorithms
 
