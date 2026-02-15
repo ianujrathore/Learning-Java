@@ -123,7 +123,34 @@ Object-Oriented Programming is a way of writing code that works like real life. 
 * Four pillars of Object Oriented Programming :
 1. Encapsulation
 Encapsulation is the concept of wrapping data and methods together into a single unit (class) and restricting direct access to the data to protect it from unintended modification.
+```
+class Student {
 
+    // private variable (hidden from outside)
+    private int age;
+
+    // setter method
+    public void setAge(int age) {
+        if (age > 0) {        // validation
+            this.age = age;
+        }
+    }
+
+    // getter method
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.setAge(20);          // set value using method
+        System.out.println(s.getAge());  // access using method
+    }
+}
+```
 2. Inheritance
 Inheritance is the mechanism by which one class acquires the properties and behaviors of another class, allowing code reuse and hierarchical relationships.
 
