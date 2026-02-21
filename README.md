@@ -153,9 +153,37 @@ public class Main {
 ```
 2. Inheritance
 Inheritance is the mechanism by which one class acquires the properties and behaviors of another class, allowing code reuse and hierarchical relationships.
+```
+// Parent class
+class Animal {
+    String name;
 
-3. Polymorphism
+    void eat() {
+        System.out.println(name + " is eating.");
+    }
+}
+
+// Child class inherits from Animal
+class Dog extends Animal {
+    void bark() {
+        System.out.println(name + " is barking.");
+    }
+}
+
+// Main class to run program
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.name = "Buddy";
+
+        d.eat();   // inherited method
+        d.bark();  // own method
+    }
+}
+```
+
+4. Polymorphism
 Polymorphism means one interface or method can be used in different forms, allowing the same function name to perform different tasks depending on context.
 
-4. Abstraction
+5. Abstraction
 Abstraction is the process of hiding implementation details and showing only essential features, so the user interacts with simple interfaces instead of complex logic.
