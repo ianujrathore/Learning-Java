@@ -185,5 +185,10 @@ public class Main {
 4. Polymorphism
 Polymorphism means one interface or method can be used in different forms, allowing the same function name to perform different tasks depending on context.
 
-5. Abstraction
+Two Types Of Polymorphism
+
+a) Run time Polymorphism  
+b) Compile Time Polymorphism  
+
+6. Abstraction
 Abstraction is the process of hiding implementation details and showing only essential features, so the user interacts with simple interfaces instead of complex logic.
