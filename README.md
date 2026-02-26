@@ -181,18 +181,18 @@ public class Main {
     }
 }
 ```
-Types of inheritance 
-Single Inheritance
+• Types of inheritance 
+a) Single Inheritance
 
-Multiple Inheritance
+b) Multiple Inheritance
 
-Multilevel Inheritance
+c) Multilevel Inheritance
 
-Hierarchical Inheritance
+d) Hierarchical Inheritance
 
-Hybrid Inheritance
+e) Hybrid Inheritance
 
-4. Polymorphism
+3. Polymorphism
 Polymorphism means one interface or method can be used in different forms, allowing the same function name to perform different tasks depending on context.
 
 Two Types Of Polymorphism
@@ -200,5 +200,5 @@ Two Types Of Polymorphism
 a) Run time Polymorphism  
 b) Compile Time Polymorphism  
 
-6. Abstraction
+4. Abstraction
 Abstraction is the process of hiding implementation details and showing only essential features, so the user interacts with simple interfaces instead of complex logic.
