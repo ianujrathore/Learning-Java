@@ -197,8 +197,8 @@ Polymorphism means one interface or method can be used in different forms, allow
 
 Two Types Of Polymorphism
 
-a) Run time Polymorphism  
-b) Compile Time Polymorphism  
+a) Run time Polymorphism  : method/function behavior decided during execution (via overriding).
+b) Compile Time Polymorphism  :  method/function behavior decided during compilation (via overloading).
 
 4. Abstraction
 Abstraction is the process of hiding implementation details and showing only essential features, so the user interacts with simple interfaces instead of complex logic.
