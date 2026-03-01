@@ -177,6 +177,42 @@ class Dog extends Animal {
 #### 3️⃣ Polymorphism
 Same method name → different behavior.
 
+```java
+// Parent class
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+// Child class 1
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+// Child class 2
+class Cat extends Animal {
+    void sound() {
+        System.out.println("Cat meows");
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        Animal a;
+
+        a = new Dog();  // reference is Animal, object is Dog
+        a.sound();
+
+        a = new Cat();  // reference is Animal, object is Cat
+        a.sound();
+    }
+}
+```
+
 **Types**
 - Compile-time → Method Overloading  
 - Runtime → Method Overriding  
