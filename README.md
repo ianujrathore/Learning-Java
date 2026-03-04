@@ -221,3 +221,7 @@ public class Main {
 
 #### 4️⃣ Abstraction
 Shows only essential features and hides internal implementation details.
+
+```java
+
+```
