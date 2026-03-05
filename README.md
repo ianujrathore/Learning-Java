@@ -223,5 +223,28 @@ public class Main {
 Shows only essential features and hides internal implementation details.
 
 ```java
+abstract class Animal {
+    // Abstract method (no body)
+    abstract void makeSound();
+    
+    // Regular method
+    void sleep() {
+        System.out.println("Sleeping...");
+    }
+}
 
+class Dog extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println("Woof Woof!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.makeSound(); // Output: Woof Woof!
+        myDog.sleep();     // Output: Sleeping...
+    }
+}
 ```
