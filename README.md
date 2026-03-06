@@ -248,3 +248,13 @@ public class Main {
     }
 }
 ```
+
+##  📌 Types of Loops in Java
+
+Java mainly provides three types of loops:
+- for loop 
+- while loop 
+- do-while loop 
+
+
+
