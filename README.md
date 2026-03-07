@@ -256,5 +256,10 @@ Java mainly provides three types of loops:
 - while loop 
 - do-while loop 
 
-
+#### 1 For Loop Syntax in Java
+```java
+for (initialization; condition; update) {
+    // code to run each loop
+}
+```
 
