@@ -263,3 +263,12 @@ for (initialization; condition; update) {
 }
 ```
 
+#### 2 While Loop Syntax in Java
+```java
+while (condition) {
+    // code to execute repeatedly
+}
+```
+
+
+
