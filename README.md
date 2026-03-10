@@ -270,5 +270,11 @@ while (condition) {
 }
 ```
 
+#### 3 Do While Loop Syntax in Java
+```java
+do {
+    // code to be executed
+} while (condition);
+```
 
 
