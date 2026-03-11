@@ -277,4 +277,13 @@ do {
 } while (condition);
 ```
 
+## For - Each Loop 
+the for-each loop (also called the enhanced for loop) is used to iterate through arrays or collections easily without using an index.
+
+```java
+for (datatype variable : arrayOrCollection) {
+    // code to execute
+}
+```
+
 
