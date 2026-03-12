@@ -286,4 +286,9 @@ for (datatype variable : arrayOrCollection) {
 }
 ```
 
+## Java Collection Frame Works
+The Java Collections Framework (JCF) is a set of classes and interfaces in Java that help you store, manage, and manipulate groups of objects efficiently. It is part of the Java standard library (java.util package).
+
+Instead of writing your own data structures, Java provides ready-made structures like lists, sets, queues, and maps.
+
 
