@@ -291,4 +291,13 @@ The Java Collections Framework (JCF) is a set of classes and interfaces in Java 
 
 Instead of writing your own data structures, Java provides ready-made structures like lists, sets, queues, and maps.
 
+#### The main interfaces in the Collection Framework are:
+Collection
 
+List
+
+Set
+
+Queue
+
+Map (separate interface for key-value storage)
