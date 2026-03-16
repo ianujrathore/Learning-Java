@@ -297,7 +297,7 @@ Instead of writing your own data structures, Java provides ready-made structures
 
 - List : List is an interface in the Java Collection Framework that represents an ordered collection of elements where duplicates are allowed and elements can be accessed using an index.
 
-Set
+- Set : A Set is a collection that does not allow duplicate elements and typically does not guarantee insertion order (depending on the implementation).
 
 Queue
 
