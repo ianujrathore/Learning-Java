@@ -299,6 +299,6 @@ Instead of writing your own data structures, Java provides ready-made structures
 
 - Set : A Set is a collection that does not allow duplicate elements and typically does not guarantee insertion order (depending on the implementation).
 
-Queue
+- Queue : A Queue in the Java Collections Framework is an interface that represents a collection of elements designed to be processed in a First-In-First-Out (FIFO) order, where elements are inserted at the rear and removed from the front.
 
 Map (separate interface for key-value storage)
