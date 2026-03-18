@@ -302,3 +302,4 @@ Instead of writing your own data structures, Java provides ready-made structures
 - Queue : A Queue in the Java Collections Framework is an interface that represents a collection of elements designed to be processed in a First-In-First-Out (FIFO) order, where elements are inserted at the rear and removed from the front.
 
 Map (separate interface for key-value storage)
+There are map used to store data in Java!
