@@ -303,6 +303,25 @@ Instead of writing your own data structures, Java provides ready-made structures
 
 - Map (separate interface for key-value storage) : There are map used to store data in Java! A map is an object that stores elements in key-value pairs, where each key is unique and is used to access its corresponding value.
 * HashMap
+```java
+import java.util.HashMap;
+
+public class Example {
+    public static void main(String[] args) {
+        HashMap<String, String> map = new HashMap<>();
+
+        map.put("1", "Apple");
+        map.put("2", "Banana");
+        map.put("3", "Mango");
+
+        System.out.println(map.get("2"));  // Banana
+
+        for (String key : map.keySet()) {
+            System.out.println(key + " -> " + map.get(key));
+        }
+    }
+}
+```
 * LinkedHashMap
 * TreeMap
 * HashTable
